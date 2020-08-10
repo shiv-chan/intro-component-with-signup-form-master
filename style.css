@@ -248,7 +248,7 @@ footer{
   }
 
   .form.error{
-    margin: 5px;
+    margin-bottom: 10px;
   }
   
   input {
