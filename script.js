@@ -64,16 +64,15 @@ function checkInputs(){
   }
 }
 
-
+//change form size when any errors occur
 function errorCheck(){
   const arr = [firstName, lastName, email, password];
   for(let i = 0; i < arr.length; i++){
     if(arr[i].parentElement.getAttribute("class").indexOf("error") !== -1){
-      console.log("error");
       form.classList.add("error");
       banner.classList.add("error");
+      break;
     } else {
-      console.log("no error");
       form.classList.remove("error");
       banner.classList.remove("error");
     }
