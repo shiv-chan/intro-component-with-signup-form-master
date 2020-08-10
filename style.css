@@ -27,7 +27,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 80%;
+  min-width: 80%;
   display: grid;
   grid-template-columns: 600px 1px 540px;
   grid-template-rows: 650px;
